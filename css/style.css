@@ -88,3 +88,75 @@ h6 {
   background-color: white;
   color: #0055b8;
 }
+
+/*GNB*/
+
+#wrap {
+  width: 1320px;
+  margin: 0 auto;
+}
+
+#header {
+  position: absolute;
+  width: 1320px;
+  top:0;
+  overflow: hidden;
+  padding: 45px 20px 0;
+}
+
+#header .inner {
+  float: right;
+  overflow: hidden;
+}
+
+#header .inner #gnb,
+#header .inner #login_menu {
+  float: left;
+}
+
+#header .inner ul>li {
+  height: 24px;
+  float: left;
+}
+
+#header .inner ul>li a {
+  line-height: 24px;
+}
+
+#gnb {
+  overflow: hidden;
+  margin-right: 106px;
+}
+
+#gnb li {
+  margin-left: 50px;
+}
+
+#gnb li:first-child {
+  margin-left: 0px;
+}
+
+#login_menu {
+  overflow: hidden;
+}
+
+#login_menu li {
+  margin-left: 32px;
+}
+
+#login_menu li:first-child {
+  margin-left: 0;
+}
+
+#login_menu li span.count {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  line-height: 19px;
+  border-radius: 10px;
+  background-color: #ffc01d;
+  color: white;
+  text-align: center;
+  margin-left: 6px;
+  padding-bottom: 1px;
+}
