@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: "Noto Sans KR", sans-serif;
+  color: #666666;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  color: #666666;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1;
+}
+
+/*너비 최소값 지정*/
+#mainbanner,#wrap,section,#footer {
+  min-width: 1320px;
+}
+
+/*mainbanner start*/
+#mainbanner {
+  background-image: url("../img/main_banner_bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#mainbanner .inner {
+  position: relative;
+  width: 1320px;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+#mainbanner .main_text {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  top:50%;
+  transform: translateY(-50%);
+}
+
+#mainbanner .maintitle {
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: 300;
+  color: #333333;
+}
+
+#mainbanner .subtitle {
+  margin-top: 30px;
+  font-size: 20px;
+  color: #666666;
+}
+
+/*common btn*/
+.common_btn {
+  display: inline-block;
+  width: 180px;
+  height: 60px;
+  line-height: 60px;
+  margin-top: 40px;
+  border-radius: 5px;
+  border: 1px solid #0055b8;
+  box-sizing: border-box;
+  background-color: #0055b8;
+  font-weight: bold;
+  color: white;
+}
+
+.common_btn:hover {
+  background-color: white;
+  color: #0055b8;
+}
